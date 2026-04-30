@@ -68,6 +68,6 @@ function getUsers() {
     })
     .catch(function(error) {
         document.getElementById("output").innerHTML =
-        "<h2>API Error 😢</h2>";
+        "<h2>API Error </h2>";
     });
 }
